@@ -1,16 +1,22 @@
-show databases; - shows all the databases present in the system
+show databases;
+- shows all the databases present in the system
 
-create database adil; - creates database adil
+create database adil; 
+creates database adil
 
 create table student(id INT AUTO_INCREMENT PRIMARY KEY,
     -> name varchar(50) NOT NULL,
-    -> mark INT); - creates table
+    -> mark INT);
+- creates table
 
-insert into student values (2,"john wick",10); - insert values to the table student
+insert into student values (2,"john wick",10); 
+- insert values to the table student
 
-rename table student to students; - renames the name of the table
+rename table student to students; 
+- renames the name of the table
 
-alter table student change column phone ph varchar(20); - change column name phone to ph
+alter table student change column phone ph varchar(20); 
+- change column name phone to ph
 
 
 
