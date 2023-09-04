@@ -5,3 +5,40 @@ age INT NOT NULL,
 postal_code varchar(10), 
 email varchar(100) NOT NULL, 
 gender varchar(50));
+
+create table invoice (invoice_id INT PRIMARY KEY, 
+price INT, 
+tax varchar(10), 
+date DATE, 
+total INT);
+
+create table orders (order_id INT PRIMARY KEY, 
+order_type varchar(20), 
+product_type varchar(10), 
+product_location varchar(30), 
+product_id INT);
+
+create table event (event_id INT PRIMARY KEY, 
+location varchar(20), 
+date DATE, 
+address_id INT);
+
+create table product (event_id INT PRIMARY KEY, 
+product_id INT, 
+material_id INT,  
+type varchar(20),  
+availability INT,  
+stock INT, 
+subcontractor_id INT);
+
+create table material (material_id INT PRIMARY KEY, 
+material_type varchar(20), 
+availability INT,  
+stock INT,  
+subcontractor_id INT);
+
+create table subcontractor (subcontractor_id INT PRIMARY KEY, 
+name varchar(20), 
+address varchar(50),  
+pin_code varchar(10),  
+email varchar(50));
