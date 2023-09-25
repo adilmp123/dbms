@@ -2,3 +2,41 @@ INSERT INTO event VALUES (1, 'New York', '2023-09-25', 123),
        (2, 'London', '2023-09-26', 456),
        (3, 'Tokyo', '2023-09-27', 789);
 
+INSERT INTO invoice VALUES (1, 'New York', '2023-09-25', 123),
+       (2, 'London', '2023-09-26', 456),
+       (3, 'Tokyo', '2023-09-27', 789);
+
+INSERT INTO invoice VALUES (1, 100, '10', '2023-09-01', 110),
+(2, 200, '20', '2023-09-02', 240),
+(3, 300, '30, '2023-09-03', 117);
+
+
+INSERT INTO invoice VALUES 
+(1, 100, '10', '2023-09-01', 110),
+(2, 200, '20', '2023-09-02', 240),
+(3, 300, '30', '2023-09-03', 117);
+
+INSERT INTO material VALUES
+  (1, 'paper', 10, 5, 100),
+  (2, 'wood', 15, 10, 200),
+  (3, 'ceramics', 20, 8, 150),
+  (4, 'glass', 5, 2, 100);
+
+
+INSERT INTO orders VALUES 
+(1, 'Online', 'Electronics', 'Warehouse A', 12345),
+(2, 'In-store', 'Clothing', 'Store B', 67890),
+(3, 'Phone', 'Home Appliances', 'Warehouse C', 54321);
+
+
+INSERT INTO product values 
+(1, 1001, 'glass', 12, 10, 5001),
+(2, 1002, 'ceramics', 21, 0, 5002),
+(3, 1003, 'wood', 15, 5, 5003);
+
+
+INSERT INTO subcontractor VALUES
+  (1, 'bruce wayne', '123 Main St', '12345', 'bruce@example.com'),
+  (2, 'tony stark', '456 Elm St', '67890', 'tony@example.com'),
+  (3, 'clint barton', '789 Oak St', '54321', 'clint@example.com');
+
