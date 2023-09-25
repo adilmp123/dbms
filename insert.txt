@@ -1,0 +1,4 @@
+INSERT INTO event VALUES (1, 'New York', '2023-09-25', 123),
+       (2, 'London', '2023-09-26', 456),
+       (3, 'Tokyo', '2023-09-27', 789);
+
