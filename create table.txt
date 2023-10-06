@@ -7,7 +7,7 @@ email varchar(100) NOT NULL,
 gender varchar(50));
 
 
-create temporary table validator (customer_id INT PRIMARY KEY, 
+create temporary table validator (validator_id INT PRIMARY KEY, 
 name varchar(50) NOT NULL,
 age INT NOT NULL,  
 gender varchar(50));
