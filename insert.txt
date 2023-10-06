@@ -40,3 +40,6 @@ INSERT INTO subcontractor VALUES
   (2, 'tony stark', '456 Elm St', '67890', 'tony@example.com'),
   (3, 'clint barton', '789 Oak St', '54321', 'clint@example.com');
 
+INSERT INTO customer VALUES
+  (4,'jonathan','123 main st',40,67890,'jonathan@gmail.com','Male','Doctor','1980-11-02');
+
