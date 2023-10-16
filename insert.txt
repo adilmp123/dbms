@@ -43,3 +43,6 @@ INSERT INTO subcontractor VALUES
 INSERT INTO customer VALUES
   (4,'jonathan','123 main st',40,67890,'jonathan@gmail.com','Male','Doctor','1980-11-02');
 
+INSERT INTO customer VALUES
+  (4,'jonathan','123 main st',40,67890,'jonathan@gmail.com','Male');
+
