@@ -1,0 +1,17 @@
+Subject: Issue Accessing Onboarding Tasks on My Oracle Portal
+
+Hi,
+
+I hope you are doing well.
+
+While setting up the MacBook Pro, I accessed my.oracle.com and navigated to the "Start Your Journey" section for new employees. I then selected the New Employee Checklist and clicked on "Go to Journeys" under the "For All New Employees" section.
+
+However, unlike the other new joiners, I did not receive the same interface showing the categorized tasks for the first day and first week, along with the progress tracker indicating the number of tasks completed. Instead, I was redirected to a generic welcome page with no actionable items or checklist. As a result, I’m currently unable to complete the required onboarding tasks through the platform.
+
+Tasks such as badge activation, which others could access through their journey page, were not visible to me. I had to manually enter the URL to complete that particular step.
+
+It appears this issue is specific to my profile, as the process worked correctly for other new joiners. I would appreciate your guidance on how to get this resolved or if you could direct me to the appropriate team for support.
+
+Best regards,
+Adil Mohamed
+
